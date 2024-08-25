@@ -8,7 +8,6 @@ sex VARCHAR(1) NOT NULL, --'M for Male, 'F' for Female,
 hire_date DATE NOT NULL,
 PRIMARY KEY (emp_no)
 );
-
 SELECT * FROM employees_table;
 -------------------------------
 CREATE TABLE departments_table (

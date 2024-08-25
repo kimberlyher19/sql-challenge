@@ -60,7 +60,7 @@ INNER JOIN departments_table ON dept_emp_table.dept_no = departments_table.dept_
 WHERE departments_table.dept_name IN ('Sales', 'Development');
 
 --8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
-SELECT last_name, COUNT(*) AS frequency
+SELECT last_name, COUNT(last_name) AS total_counts
 FROM employees_table
 GROUP BY last_name
-ORDER BY frequency DESC;
+ORDER BY total_counts DESC;
