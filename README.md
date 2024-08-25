@@ -37,7 +37,7 @@ Import each CSV file into its corresponding SQL table.
 
 
 ## __Footnotes__
-__`data`__ folder contains CSV files that were imported into it's correspoinding SQL table.  
+__`data`__ folder contains CSV files that were imported into their corresponding SQL table.  
 Codes were referenced from the class activities and I used ChatGPT for assistance when my codes weren't running properly. 
 
 
